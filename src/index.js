@@ -6,7 +6,11 @@ import SearchBar from './components/searchBar';
 import VideoList from './components/videoList';
 import VideoDetail from './components/videoDetail';
 const API_KEY = 'AIzaSyDu7m0BipQ2gdOYMAKEaRkMRrEl3vtRG9g';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
+library.add(faSearch);
 
 // Create new componet, this makes some html
 
