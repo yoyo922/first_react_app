@@ -10,7 +10,7 @@ const VideoDetail = ({video}) => {
 
 	/*componentDidCatch(error, info) {
     // Display fallback UI
-    this.setState({ hasError: true });
+    this.setState({ hasError: trusade });
     // You can also log the error to an error reporting service
     logErrorToMyService(error, info);
   }*/
